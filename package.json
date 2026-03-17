@@ -1,0 +1,24 @@
+{
+  "name": "campus-event-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maanncodes09/Campus-Event-Management-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maanncodes09/Campus-Event-Management-System/issues"
+  },
+  "homepage": "https://github.com/maanncodes09/Campus-Event-Management-System#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "qrcode": "^1.5.4"
+  }
+}

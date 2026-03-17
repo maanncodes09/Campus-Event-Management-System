@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Event Details</title>
+</head>
+
+<body>
+
+<h1>Hackathon 2026</h1>
+
+<p><b>Date:</b> 25 March</p>
+<p><b>Location:</b> Auditorium</p>
+
+<button onclick="registerEvent()">Register for Event</button>
+
+<br><br>
+
+<div id="qr"></div>
+
+<script>
+
+function registerEvent(){
+
+alert("Registration Successful");
+
+fetch("http://localhost:3000/generate-qr")
+.then(res => res.json())
+.then(data => {
+
+const img = document.createElement("img");
+img.src = data.qr;
+img.width = 200;
+
+document.getElementById("qr").innerHTML = "";
+document.getElementById("qr").appendChild(img);
+
+})
+.catch(err => console.log(err));
+
+}
+
+</script>
+
+</body>
+</html>
