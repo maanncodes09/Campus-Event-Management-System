@@ -22,6 +22,8 @@ Users can register, log in, create events, and register for events.
 
 ### Frontend:
 
+
+
 * HTML
 * CSS
 * JavaScript
@@ -57,7 +59,7 @@ We used a **simplified MVC pattern**:
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
+git clone <my-repo-link>
 ```
 
 2. Go to backend folder:
@@ -91,7 +93,7 @@ node app.js
 http://localhost:5000
 ```
 
----
+
 
 ## 📁 Folder Structure
 
@@ -112,14 +114,12 @@ CAMPUS-EVENT-MANAGEMENT-SYSTEM/
 │   └── createevent.html
 ```
 
----
-
 ## 🔐 Authentication
 
 * JWT (JSON Web Token) is used for secure login
 * Protected routes require token
 
----
+
 
 ## 📚 Software Model
 
@@ -130,7 +130,6 @@ We followed the **Waterfall Model**:
 3. Implementation
 4. Testing
 
----
 
 ## 🎯 Future Improvements
 
@@ -139,4 +138,3 @@ We followed the **Waterfall Model**:
 * Improve UI/UX
 * Add event images
 MVC Structure
----
